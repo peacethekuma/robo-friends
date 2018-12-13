@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Devil Breeze Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Devil Breeze Bold'), url('Devil Breeze Bold.woff') format('woff');
+}
+
+h1{
+  font-family: 'Devil Breeze Bold';
+}
