@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/peacethekuma/roboFriends/precache-manifest.5b7e0f468274c3700fe21c8753882d49.js"
+  "/peacethekuma/robo-friends/precache-manifest.96eb761acaadb25cc42889a1608b9213.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/peacethekuma/roboFriends/index.html", {
+workbox.routing.registerNavigationRoute("/peacethekuma/robo-friends/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
